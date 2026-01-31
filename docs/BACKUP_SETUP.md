@@ -86,6 +86,9 @@ crontab -e
 crontab -l
 ```
 
+> [!IMPORTANT]
+> If you were already using an older version of these scripts, ensure your crontab points to the scripts in `/home/arffy/cproj/vistar/`.
+
 ---
 
 ## 🔄 How to Restore
@@ -120,11 +123,11 @@ pg_restore \
 
 ## 📊 Monitoring
 
-### View backup logs:
+### View logs:
 
-```bash
-tail -f /home/arffy/arffy_db_bkups/odoo_18_warehouse/backup.log
-```
+- **Backup logs**: `tail -f /home/arffy/arffy_db_bkups/odoo_18_warehouse/backup.log`
+- **Retention cleanup logs**: `tail -f /home/arffy/arffy_db_bkups/odoo_18_warehouse/retention_cleanup.log`
+- **Error logs**: `tail -f /home/arffy/arffy_db_bkups/odoo_18_warehouse/backup_errors.log`
 
 ### Check backup files:
 

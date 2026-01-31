@@ -100,13 +100,12 @@ if [ "${REAL_BASE}" != "${REAL_ALLOWED}" ]; then ... exit 1; fi
 ### 4. Logging & Master Toggle
 
 ```bash
-if [ "${RETENTION_ENABLED}" != "true" ]; then
-    log_info "Retention cleanup is currently DISABLED... Exiting."
-    exit 0
-fi
+log_info() {
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [RETENTION] $1" | tee -a "${CLEANUP_LOG}"
+}
 ```
 
-- **Line 91**: The **Kill-Switch** check. Safely exits if retention is toggled off.
+- **Line 77**: Logs are now exclusively written to `retention_cleanup.log`. This keeps the main backup log clean.
 
 ---
 

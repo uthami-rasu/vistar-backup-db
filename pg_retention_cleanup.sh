@@ -25,7 +25,6 @@ RETENTION_ENABLED="true"    # Master kill-switch (true/false)
 DRY_RUN="false"            # If true, identifies what to delete but makes no changes
 
 # Logging
-LOG_FILE="${BASE_DIR}/backup.log"
 CLEANUP_LOG="${BASE_DIR}/retention_cleanup.log"
 
 # -----------------------------
@@ -74,11 +73,11 @@ echo "[SAFETY] All safety checks passed. Allowed directory: ${REAL_BASE}"
 # Logging helper functions
 # -----------------------------
 log_info() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [RETENTION] $1" | tee -a "${LOG_FILE}" "${CLEANUP_LOG}"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [RETENTION] $1" | tee -a "${CLEANUP_LOG}"
 }
 
 log_success() {
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [RETENTION-SUCCESS] $1" | tee -a "${LOG_FILE}" "${CLEANUP_LOG}"
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [RETENTION-SUCCESS] $1" | tee -a "${CLEANUP_LOG}"
 }
 
 # -----------------------------
