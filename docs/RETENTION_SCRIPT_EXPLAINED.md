@@ -55,7 +55,7 @@ set -euo pipefail
 ### 2. Configuration Section
 
 ```bash
-ALLOWED_BASE="/home/arffy/cproj/vistar/odoo_prod_warehouse"
+ALLOWED_BASE="/home/arffy/arffy_db_bkups/odoo_18_warehouse"
 BASE_DIR="${ALLOWED_BASE}"
 RETENTION_UNIT="minutes"
 RETENTION_PERIOD=20

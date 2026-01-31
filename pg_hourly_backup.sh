@@ -17,7 +17,7 @@ PG_DB="govt"
 # -----------------------------
 # Backup Configuration
 # -----------------------------
-BASE_DIR="/home/arffy/cproj/vistar/odoo_prod_warehouse"
+BASE_DIR="/home/arffy/arffy_db_bkups/odoo_18_warehouse"
 
 # Date & Time formatting
 DATE_DIR=$(date +"%Y-%m-%d")                    # 2026-01-31

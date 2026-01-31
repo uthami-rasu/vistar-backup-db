@@ -124,3 +124,19 @@
 [2026-01-31 16:00:02] [RETENTION-SUCCESS] Testing mode cleanup: Deleted 3 backup file(s)
 [2026-01-31 16:00:02] [RETENTION] Retention cleanup completed
 [2026-01-31 16:00:02] [RETENTION] ==========================================
+[2026-01-31 16:20:01] [RETENTION] Starting retention cleanup
+[2026-01-31 16:20:01] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=true | DryRun=false
+[2026-01-31 16:20:01] [RETENTION] Testing mode: Identifying backups older than 21 minutes
+[2026-01-31 16:20:01] [RETENTION] Cutoff time: 2026-01-31 15:59:01
+[2026-01-31 16:20:01] [RETENTION-SUCCESS] Testing mode cleanup: Deleted 0 backup file(s)
+[2026-01-31 16:20:01] [RETENTION] Retention cleanup completed
+[2026-01-31 16:20:01] [RETENTION] ==========================================
+[2026-01-31 16:40:01] [RETENTION] Starting retention cleanup
+[2026-01-31 16:40:01] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=true | DryRun=false
+[2026-01-31 16:40:01] [RETENTION] Testing mode: Identifying backups older than 21 minutes
+[2026-01-31 16:40:01] [RETENTION] Cutoff time: 2026-01-31 16:19:01
+[2026-01-31 16:40:01] [RETENTION] Deleted: VISTAR-2026-01-31_16-15-01.backup | Created: 2026-01-31 16:15:07 | Size: 30M
+[2026-01-31 16:40:01] [RETENTION] Deleted: VISTAR-2026-01-31_16-10-01.backup | Created: 2026-01-31 16:10:07 | Size: 30M
+[2026-01-31 16:40:01] [RETENTION-SUCCESS] Testing mode cleanup: Deleted 2 backup file(s)
+[2026-01-31 16:40:01] [RETENTION] Retention cleanup completed
+[2026-01-31 16:40:01] [RETENTION] ==========================================

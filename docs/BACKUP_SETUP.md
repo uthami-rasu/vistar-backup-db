@@ -27,10 +27,19 @@ chmod +x /home/arffy/cproj/vistar/pg_hourly_backup.sh
 chmod +x /home/arffy/cproj/vistar/pg_retention_cleanup.sh
 ```
 
-#### C. Set backup directory permissions
+#### C. Set backup directory permissions (CRITICAL)
+
+The backup directory must be owned by your user and have correct permissions.
 
 ```bash
-chmod 755 /home/arffy/cproj/vistar/odoo_prod_warehouse
+# 1. Create the grandparent directory
+sudo mkdir -p /home/arffy/arffy_db_bkups/odoo_18_warehouse
+
+# 2. Grant ownership to your user
+sudo chown -R arffy:arffy /home/arffy/arffy_db_bkups
+
+# 3. Set directory permissions
+chmod 755 /home/arffy/arffy_db_bkups/odoo_18_warehouse
 ```
 
 ---
@@ -91,7 +100,7 @@ pg_restore \
   --dbname=govt \
   --clean \
   --if-exists \
-  /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-11-00-AM.backup
+  /home/arffy/arffy_db_bkups/odoo_18_warehouse/2026-01-31/VISTAR-2026-01-31_11-00-00.backup
 ```
 
 ### Restore to different database:
@@ -104,7 +113,7 @@ pg_restore \
   --dbname=govt_local \
   --clean \
   --if-exists \
-  /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-11-00-AM.backup
+  /home/arffy/arffy_db_bkups/odoo_18_warehouse/2026-01-31/VISTAR-2026-01-31_11-00-00.backup
 ```
 
 ---
@@ -114,19 +123,19 @@ pg_restore \
 ### View backup logs:
 
 ```bash
-tail -f /home/arffy/cproj/vistar/odoo_prod_warehouse/backup.log
+tail -f /home/arffy/arffy_db_bkups/odoo_18_warehouse/backup.log
 ```
 
 ### Check backup files:
 
 ```bash
-ls -lh /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/
+ls -lh /home/arffy/arffy_db_bkups/odoo_18_warehouse/2026-01-31/
 ```
 
 ### Count total backups:
 
 ```bash
-find /home/arffy/cproj/vistar/odoo_prod_warehouse -name "*.backup" | wc -l
+find /home/arffy/arffy_db_bkups/odoo_18_warehouse -name "*.backup" | wc -l
 ```
 
 ---
@@ -187,7 +196,7 @@ vistar/
 ├── pg_hourly_backup.sh          # Hourly backup script
 ├── pg_retention_cleanup.sh      # Daily cleanup script
 ├── .pgpass                      # PostgreSQL password (600)
-└── odoo_prod_warehouse/         # Backup storage (755)
+└── /home/arffy/arffy_db_bkups/odoo_18_warehouse/ # Backup storage (755)
     ├── backup.log
     ├── backup_errors.log
     ├── retention_cleanup.log

@@ -37,7 +37,7 @@ PG_DB="govt"
 ## Backup Directory Configuration
 
 ```bash
-BASE_DIR="/home/arffy/cproj/vistar/odoo_prod_warehouse"
+BASE_DIR="/home/arffy/arffy_db_bkups/odoo_18_warehouse"
 ```
 
 **Why:** Root directory where all backups are stored. Keeps backups organized in one location.

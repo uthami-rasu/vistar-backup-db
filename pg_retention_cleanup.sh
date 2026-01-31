@@ -11,7 +11,7 @@ set -euo pipefail
 # Configuration
 # -----------------------------
 # ALLOWED BACKUP DIRECTORY - This is the ONLY directory where deletions are permitted
-ALLOWED_BASE="/home/arffy/cproj/vistar/odoo_prod_warehouse"
+ALLOWED_BASE="/home/arffy/arffy_db_bkups/odoo_18_warehouse"
 BASE_DIR="${ALLOWED_BASE}"
 
 # Retention settings
@@ -22,7 +22,7 @@ RETENTION_PERIOD=20         # Number of days/minutes to keep
 
 # Safety Guards
 RETENTION_ENABLED="true"    # Master kill-switch (true/false)
-DRY_RUN="false"             # If true, identifies what to delete but makes no changes
+DRY_RUN="false"            # If true, identifies what to delete but makes no changes
 
 # Logging
 LOG_FILE="${BASE_DIR}/backup.log"
