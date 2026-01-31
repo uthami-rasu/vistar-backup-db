@@ -17,8 +17,8 @@ BASE_DIR="${ALLOWED_BASE}"
 # Retention settings
 # For PRODUCTION: Use RETENTION_UNIT="days" and RETENTION_PERIOD=10
 # For TESTING: Use RETENTION_UNIT="minutes" and RETENTION_PERIOD=20
-RETENTION_UNIT="minutes"    # "days" or "minutes"
-RETENTION_PERIOD=20         # Number of days/minutes to keep
+RETENTION_UNIT="days"       # "days" or "minutes"
+RETENTION_PERIOD=10         # Number of days/minutes to keep
 
 # Safety Guards
 RETENTION_ENABLED="true"    # Master kill-switch (true/false)

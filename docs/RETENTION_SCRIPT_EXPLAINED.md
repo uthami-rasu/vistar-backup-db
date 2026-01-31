@@ -57,8 +57,8 @@ set -euo pipefail
 ```bash
 ALLOWED_BASE="/home/arffy/arffy_db_bkups/odoo_18_warehouse"
 BASE_DIR="${ALLOWED_BASE}"
-RETENTION_UNIT="minutes"
-RETENTION_PERIOD=20
+RETENTION_UNIT="days"
+RETENTION_PERIOD=10
 ```
 
 - `ALLOWED_BASE`: The "Source of Truth" for where deletions are allowed.
