@@ -1,0 +1,342 @@
+[2026-01-30 16:49:43] [INFO] Starting backup for database: govt
+[2026-01-30 16:49:43] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-30-2026/VISTAR-04-49-PM.dump
+[2026-01-30 16:50:02] [SUCCESS] Backup completed successfully | Size: 83M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-30-2026/VISTAR-04-49-PM.dump
+[2026-01-30 16:50:02] [INFO] Applying retention policy: deleting backups older than 10 days
+[2026-01-30 16:50:02] [INFO] Retention cleanup completed
+[2026-01-30 16:50:02] [INFO] ==========================================
+[2026-01-30 16:56:17] [INFO] Starting backup for database: govt
+[2026-01-30 16:56:17] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-30-2026/VISTAR-04-56-PM.dump
+[2026-01-30 16:56:34] [SUCCESS] Backup completed successfully | Size: 83M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-30-2026/VISTAR-04-56-PM.dump
+[2026-01-30 16:56:34] [INFO] ==========================================
+[2026-01-30 16:56:41] [RETENTION] Starting retention cleanup
+[2026-01-30 16:56:41] [RETENTION] Target date folder: JAN-19-2026 (11 days old)
+[2026-01-30 16:56:41] [RETENTION] No folder found for JAN-19-2026 - nothing to delete
+[2026-01-30 16:56:41] [RETENTION] Retention cleanup completed
+[2026-01-30 16:56:41] [RETENTION] ==========================================
+[2026-01-30 17:46:57] [INFO] Starting backup for database: govt
+[2026-01-30 17:46:57] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-30-2026/VISTAR-05-46-PM.dump
+[2026-01-30 17:47:07] [SUCCESS] Backup completed successfully | Size: 83M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-30-2026/VISTAR-05-46-PM.dump
+[2026-01-30 17:47:07] [INFO] ==========================================
+[2026-01-30 18:00:01] [INFO] Starting backup for database: govt
+[2026-01-30 18:00:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-30-2026/VISTAR-06-00-PM.dump
+[2026-01-30 18:00:18] [SUCCESS] Backup completed successfully | Size: 83M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-30-2026/VISTAR-06-00-PM.dump
+[2026-01-30 18:00:18] [INFO] ==========================================
+[2026-01-30 20:00:01] [INFO] Starting backup for database: govt
+[2026-01-30 20:00:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-30-2026/VISTAR-08-00-PM.sql
+[2026-01-30 20:00:10] [SUCCESS] Backup completed successfully | Size: 593M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-30-2026/VISTAR-08-00-PM.sql
+[2026-01-30 20:00:10] [INFO] ==========================================
+[2026-01-31 10:00:01] [INFO] Starting backup for database: govt
+[2026-01-31 10:00:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-10-00-AM.sql
+[2026-01-31 10:00:10] [SUCCESS] Backup completed successfully | Size: 593M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-10-00-AM.sql
+[2026-01-31 10:00:10] [INFO] ==========================================
+[2026-01-31 11:00:01] [INFO] Starting backup for database: govt
+[2026-01-31 11:00:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-11-00-AM.sql
+[2026-01-31 11:00:07] [SUCCESS] Backup completed successfully | Size: 593M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-11-00-AM.sql
+[2026-01-31 11:00:07] [INFO] ==========================================
+[2026-01-31 11:19:58] [INFO] Starting backup for database: govt
+[2026-01-31 11:19:58] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-11-19-AM.backup
+[2026-01-31 11:20:08] [SUCCESS] Backup completed successfully | Size: 83M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-11-19-AM.backup
+[2026-01-31 11:20:08] [INFO] ==========================================
+[2026-01-31 11:34:33] [INFO] Starting backup for database: govt
+[2026-01-31 11:34:33] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-11-34-AM.backup
+[2026-01-31 11:34:37] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-11-34-AM.backup
+[2026-01-31 11:34:37] [INFO] ==========================================
+[2026-01-31 12:00:01] [INFO] Starting backup for database: govt
+[2026-01-31 12:00:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-00-PM.backup
+[2026-01-31 12:00:05] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-00-PM.backup
+[2026-01-31 12:00:05] [INFO] ==========================================
+[2026-01-31 12:05:01] [INFO] Starting backup for database: govt
+[2026-01-31 12:05:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-05-PM.backup
+[2026-01-31 12:05:05] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-05-PM.backup
+[2026-01-31 12:05:05] [INFO] ==========================================
+[2026-01-31 12:30:01] [INFO] Starting backup for database: govt
+[2026-01-31 12:30:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-30-PM.backup
+[2026-01-31 12:30:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-30-PM.backup
+[2026-01-31 12:30:07] [INFO] ==========================================
+[2026-01-31 12:35:01] [INFO] Starting backup for database: govt
+[2026-01-31 12:35:02] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-35-PM.backup
+[2026-01-31 12:35:08] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-35-PM.backup
+[2026-01-31 12:35:08] [INFO] ==========================================
+[2026-01-31 12:40:01] [RETENTION] Starting retention cleanup
+[2026-01-31 12:40:01] [RETENTION] Retention unit: minutes | Retention period: 20
+[2026-01-31 12:40:01] [INFO] Starting backup for database: govt
+[2026-01-31 12:40:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-40-PM.backup
+[2026-01-31 12:40:01] [RETENTION] Testing mode: Deleting backups older than 21 minutes
+[2026-01-31 12:40:01] [RETENTION] Cutoff time: 2026-01-31 12:19:01
+[2026-01-31 12:40:01] [RETENTION] Deleted: VISTAR-11-34-AM.backup | Created: 2026-01-31 11:34:37 | Size: 30M
+[2026-01-31 12:40:01] [RETENTION] Deleted: VISTAR-12-05-PM.backup | Created: 2026-01-31 12:05:04 | Size: 30M
+[2026-01-31 12:40:01] [RETENTION] Deleted: VISTAR-12-00-PM.backup | Created: 2026-01-31 12:00:05 | Size: 30M
+[2026-01-31 12:40:01] [RETENTION] Retention cleanup completed
+[2026-01-31 12:40:01] [RETENTION] ==========================================
+[2026-01-31 12:40:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-40-PM.backup
+[2026-01-31 12:40:08] [INFO] ==========================================
+[2026-01-31 12:45:01] [INFO] Starting backup for database: govt
+[2026-01-31 12:45:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-45-PM.backup
+[2026-01-31 12:45:06] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-45-PM.backup
+[2026-01-31 12:45:06] [INFO] ==========================================
+[2026-01-31 12:50:01] [INFO] Starting backup for database: govt
+[2026-01-31 12:50:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-50-PM.backup
+[2026-01-31 12:50:08] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-50-PM.backup
+[2026-01-31 12:50:08] [INFO] ==========================================
+[2026-01-31 12:55:01] [INFO] Starting backup for database: govt
+[2026-01-31 12:55:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-55-PM.backup
+[2026-01-31 12:55:06] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-12-55-PM.backup
+[2026-01-31 12:55:07] [INFO] ==========================================
+[2026-01-31 12:58:21] [RETENTION] Starting retention cleanup
+[2026-01-31 12:58:21] [RETENTION] Retention unit: minutes | Retention period: 20
+[2026-01-31 12:58:21] [RETENTION] Testing mode: Deleting backups older than 21 minutes
+[2026-01-31 12:58:21] [RETENTION] Cutoff time: 2026-01-31 12:37:21
+[2026-01-31 12:58:21] [RETENTION] Deleted: VISTAR-12-35-PM.backup | Created: 2026-01-31 12:35:08 | Size: 30M
+[2026-01-31 13:00:01] [RETENTION] Starting retention cleanup
+[2026-01-31 13:00:01] [RETENTION] Retention unit: minutes | Retention period: 20
+[2026-01-31 13:00:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:00:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-00-PM.backup
+[2026-01-31 13:00:01] [RETENTION] Testing mode: Deleting backups older than 21 minutes
+[2026-01-31 13:00:01] [RETENTION] Cutoff time: 2026-01-31 12:39:01
+[2026-01-31 13:00:01] [RETENTION] Deleted: VISTAR-12-30-PM.backup | Created: 2026-01-31 12:30:07 | Size: 30M
+[2026-01-31 13:00:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-00-PM.backup
+[2026-01-31 13:00:07] [INFO] ==========================================
+[2026-01-31 13:05:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:05:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-05-PM.backup
+[2026-01-31 13:05:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-05-PM.backup
+[2026-01-31 13:05:07] [INFO] ==========================================
+[2026-01-31 13:09:02] [RETENTION] Starting retention cleanup
+[2026-01-31 13:09:02] [RETENTION] Retention unit: minutes | Retention period: 20
+[2026-01-31 13:09:02] [RETENTION] Testing mode: Deleting backups older than 21 minutes
+[2026-01-31 13:09:02] [RETENTION] Cutoff time: 2026-01-31 12:48:02
+[2026-01-31 13:09:02] [RETENTION] Deleted: VISTAR-12-45-PM.backup | Created: 2026-01-31 12:45:06 | Size: 30M
+[2026-01-31 13:10:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:10:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-10-PM.backup
+[2026-01-31 13:10:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-10-PM.backup
+[2026-01-31 13:10:07] [INFO] ==========================================
+[2026-01-31 13:14:58] [RETENTION] Starting retention cleanup
+[2026-01-31 13:14:58] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=false | DryRun=false
+[2026-01-31 13:14:58] [RETENTION] Retention cleanup is currently DISABLED via kill-switch. Exiting.
+[2026-01-31 13:15:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:15:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-15-PM.backup
+[2026-01-31 13:15:03] [RETENTION] Starting retention cleanup
+[2026-01-31 13:15:03] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=true | DryRun=true
+[2026-01-31 13:15:03] [RETENTION] Testing mode: Identifying backups older than 21 minutes
+[2026-01-31 13:15:03] [RETENTION] Cutoff time: 2026-01-31 12:54:03
+[2026-01-31 13:15:03] [RETENTION] [DRY-RUN] Would delete: VISTAR-12-50-PM.backup | Created: 2026-01-31 12:50:07 | Size: 30M
+[2026-01-31 13:15:08] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-15-PM.backup
+[2026-01-31 13:15:08] [INFO] ==========================================
+[2026-01-31 13:15:11] [RETENTION] Starting retention cleanup
+[2026-01-31 13:15:11] [RETENTION] Config: Unit=hours | Period=20 | Enabled=true | DryRun=false
+[2026-01-31 13:15:11] [RETENTION] [FATAL] Invalid RETENTION_UNIT: hours. Must be 'minutes' or 'days'.
+[2026-01-31 13:20:01] [RETENTION] Starting retention cleanup
+[2026-01-31 13:20:01] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=true | DryRun=false
+[2026-01-31 13:20:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:20:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-20-PM.backup
+[2026-01-31 13:20:01] [RETENTION] Testing mode: Identifying backups older than 21 minutes
+[2026-01-31 13:20:01] [RETENTION] Cutoff time: 2026-01-31 12:59:01
+[2026-01-31 13:20:01] [RETENTION] Deleted: VISTAR-12-50-PM.backup | Created: 2026-01-31 12:50:07 | Size: 30M
+[2026-01-31 13:20:08] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-20-PM.backup
+[2026-01-31 13:20:08] [INFO] ==========================================
+[2026-01-31 13:25:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:25:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-25-PM.backup
+[2026-01-31 13:25:08] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-25-PM.backup
+[2026-01-31 13:25:08] [INFO] ==========================================
+[2026-01-31 13:30:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:30:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-30-PM.backup
+[2026-01-31 13:30:08] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-30-PM.backup
+[2026-01-31 13:30:08] [INFO] ==========================================
+[2026-01-31 13:35:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:35:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-35-PM.backup
+[2026-01-31 13:35:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-35-PM.backup
+[2026-01-31 13:35:07] [INFO] ==========================================
+[2026-01-31 13:40:01] [RETENTION] Starting retention cleanup
+[2026-01-31 13:40:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:40:01] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=true | DryRun=false
+[2026-01-31 13:40:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-40-PM.backup
+[2026-01-31 13:40:01] [RETENTION] Testing mode: Identifying backups older than 21 minutes
+[2026-01-31 13:40:01] [RETENTION] Cutoff time: 2026-01-31 13:19:01
+[2026-01-31 13:40:01] [RETENTION] Deleted: VISTAR-01-15-PM.backup | Created: 2026-01-31 13:15:08 | Size: 30M
+[2026-01-31 13:40:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-40-PM.backup
+[2026-01-31 13:40:07] [INFO] ==========================================
+[2026-01-31 13:45:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:45:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-45-PM.backup
+[2026-01-31 13:45:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-45-PM.backup
+[2026-01-31 13:45:07] [INFO] ==========================================
+[2026-01-31 13:50:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:50:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-50-PM.backup
+[2026-01-31 13:50:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-50-PM.backup
+[2026-01-31 13:50:07] [INFO] ==========================================
+[2026-01-31 13:55:01] [INFO] Starting backup for database: govt
+[2026-01-31 13:55:02] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-55-PM.backup
+[2026-01-31 13:55:08] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-01-55-PM.backup
+[2026-01-31 13:55:08] [INFO] ==========================================
+[2026-01-31 13:58:41] [RETENTION] Starting retention cleanup
+[2026-01-31 13:58:41] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=true | DryRun=false
+[2026-01-31 13:58:41] [RETENTION] Testing mode: Identifying backups older than 21 minutes
+[2026-01-31 13:58:41] [RETENTION] Cutoff time: 2026-01-31 13:37:41
+[2026-01-31 13:58:41] [RETENTION] Deleted: VISTAR-01-10-PM.backup | Created: 2026-01-31 13:10:07 | Size: 30M
+[2026-01-31 13:58:42] [RETENTION] Deleted: VISTAR-01-30-PM.backup | Created: 2026-01-31 13:30:08 | Size: 30M
+[2026-01-31 13:58:42] [RETENTION] Deleted: VISTAR-01-00-PM.backup | Created: 2026-01-31 13:00:07 | Size: 30M
+[2026-01-31 13:58:42] [RETENTION] Deleted: VISTAR-01-25-PM.backup | Created: 2026-01-31 13:25:08 | Size: 30M
+[2026-01-31 13:58:42] [RETENTION] Deleted: VISTAR-01-35-PM.backup | Created: 2026-01-31 13:35:07 | Size: 30M
+[2026-01-31 13:58:42] [RETENTION] Deleted: VISTAR-12-55-PM.backup | Created: 2026-01-31 12:55:06 | Size: 30M
+[2026-01-31 13:58:42] [RETENTION] Deleted: VISTAR-01-05-PM.backup | Created: 2026-01-31 13:05:07 | Size: 30M
+[2026-01-31 13:58:42] [RETENTION] Deleted: VISTAR-12-40-PM.backup | Created: 2026-01-31 12:40:07 | Size: 30M
+[2026-01-31 13:58:42] [RETENTION] Deleted: VISTAR-01-20-PM.backup | Created: 2026-01-31 13:20:08 | Size: 30M
+[2026-01-31 13:58:42] [RETENTION-SUCCESS] Testing mode cleanup: Deleted 9 backup file(s)
+[2026-01-31 13:58:42] [RETENTION] Retention cleanup completed
+[2026-01-31 13:58:42] [RETENTION] ==========================================
+[2026-01-31 14:00:01] [RETENTION] Starting retention cleanup
+[2026-01-31 14:00:01] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=true | DryRun=false
+[2026-01-31 14:00:01] [INFO] Starting backup for database: govt
+[2026-01-31 14:00:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-00-PM.backup
+[2026-01-31 14:00:01] [RETENTION] Testing mode: Identifying backups older than 21 minutes
+[2026-01-31 14:00:01] [RETENTION] Cutoff time: 2026-01-31 13:39:01
+[2026-01-31 14:00:01] [RETENTION-SUCCESS] Testing mode cleanup: Deleted 0 backup file(s)
+[2026-01-31 14:00:01] [RETENTION] Retention cleanup completed
+[2026-01-31 14:00:01] [RETENTION] ==========================================
+[2026-01-31 14:00:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-00-PM.backup
+[2026-01-31 14:00:07] [INFO] ==========================================
+[2026-01-31 14:05:01] [INFO] Starting backup for database: govt
+[2026-01-31 14:05:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-05-PM.backup
+[2026-01-31 14:05:08] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-05-PM.backup
+[2026-01-31 14:05:08] [INFO] ==========================================
+[2026-01-31 14:05:14] [RETENTION] Starting retention cleanup
+[2026-01-31 14:05:14] [RETENTION] Config: Unit=days | Period=0 | Enabled=true | DryRun=false
+[2026-01-31 14:05:14] [RETENTION] Production mode: Keep 0 days, target folder: JAN-30-2026 (1 days old)
+[2026-01-31 14:05:14] [RETENTION] Found folder: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-30-2026 | Files: 1 | Size: 4.0K
+[2026-01-31 14:05:14] [RETENTION-SUCCESS] Deleted 1 backup files from JAN-30-2026 | Freed: 4.0K
+[2026-01-31 14:05:14] [RETENTION] Retention cleanup completed
+[2026-01-31 14:05:14] [RETENTION] ==========================================
+[2026-01-31 14:10:01] [INFO] Starting backup for database: govt
+[2026-01-31 14:10:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-10-PM.backup
+[2026-01-31 14:10:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-10-PM.backup
+[2026-01-31 14:10:07] [INFO] ==========================================
+
+
+[2026-01-31 14:15:01] [INFO] Starting backup for database: govt
+[2026-01-31 14:15:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-15-PM.backup
+[2026-01-31 14:15:08] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-15-PM.backup
+[2026-01-31 14:15:08] [INFO] ==========================================
+[2026-01-31 14:20:01] [RETENTION] Starting retention cleanup
+[2026-01-31 14:20:01] [INFO] Starting backup for database: govt
+[2026-01-31 14:20:01] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=true | DryRun=false
+[2026-01-31 14:20:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-20-PM.backup
+[2026-01-31 14:20:01] [RETENTION] Testing mode: Identifying backups older than 21 minutes
+[2026-01-31 14:20:01] [RETENTION] Cutoff time: 2026-01-31 13:59:01
+[2026-01-31 14:20:01] [RETENTION] Deleted: VISTAR-01-50-PM.backup | Created: 2026-01-31 13:50:07 | Size: 30M
+[2026-01-31 14:20:01] [RETENTION] Deleted: VISTAR-01-45-PM.backup | Created: 2026-01-31 13:45:06 | Size: 30M
+[2026-01-31 14:20:01] [RETENTION] Deleted: VISTAR-01-55-PM.backup | Created: 2026-01-31 13:55:08 | Size: 30M
+[2026-01-31 14:20:01] [RETENTION] Deleted: VISTAR-01-40-PM.backup | Created: 2026-01-31 13:40:07 | Size: 30M
+[2026-01-31 14:20:01] [RETENTION-SUCCESS] Testing mode cleanup: Deleted 4 backup file(s)
+[2026-01-31 14:20:01] [RETENTION] Retention cleanup completed
+[2026-01-31 14:20:01] [RETENTION] ==========================================
+[2026-01-31 14:20:09] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-20-PM.backup
+[2026-01-31 14:20:09] [INFO] ==========================================
+[2026-01-31 14:25:01] [INFO] Starting backup for database: govt
+[2026-01-31 14:25:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-25-PM.backup
+[2026-01-31 14:25:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-25-PM.backup
+[2026-01-31 14:25:07] [INFO] ==========================================
+[2026-01-31 14:30:01] [INFO] Starting backup for database: govt
+[2026-01-31 14:30:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-30-PM.backup
+[2026-01-31 14:30:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-30-PM.backup
+[2026-01-31 14:30:07] [INFO] ==========================================
+[2026-01-31 14:35:01] [INFO] Starting backup for database: govt
+[2026-01-31 14:35:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-35-PM.backup
+[2026-01-31 14:35:08] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-35-PM.backup
+[2026-01-31 14:35:08] [INFO] ==========================================
+[2026-01-31 14:40:01] [RETENTION] Starting retention cleanup
+[2026-01-31 14:40:01] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=true | DryRun=false
+[2026-01-31 14:40:01] [INFO] Starting backup for database: govt
+[2026-01-31 14:40:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-40-PM.backup
+[2026-01-31 14:40:01] [RETENTION] Testing mode: Identifying backups older than 21 minutes
+[2026-01-31 14:40:01] [RETENTION] Cutoff time: 2026-01-31 14:19:01
+[2026-01-31 14:40:01] [RETENTION] Deleted: VISTAR-02-05-PM.backup | Created: 2026-01-31 14:05:08 | Size: 30M
+[2026-01-31 14:40:01] [RETENTION] Deleted: VISTAR-02-00-PM.backup | Created: 2026-01-31 14:00:07 | Size: 30M
+[2026-01-31 14:40:01] [RETENTION] Deleted: VISTAR-02-10-PM.backup | Created: 2026-01-31 14:10:07 | Size: 30M
+[2026-01-31 14:40:01] [RETENTION] Deleted: VISTAR-02-15-PM.backup | Created: 2026-01-31 14:15:07 | Size: 30M
+[2026-01-31 14:40:01] [RETENTION-SUCCESS] Testing mode cleanup: Deleted 4 backup file(s)
+[2026-01-31 14:40:01] [RETENTION] Retention cleanup completed
+[2026-01-31 14:40:01] [RETENTION] ==========================================
+[2026-01-31 14:40:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-40-PM.backup
+[2026-01-31 14:40:07] [INFO] ==========================================
+[2026-01-31 14:45:01] [INFO] Starting backup for database: govt
+[2026-01-31 14:45:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-45-PM.backup
+[2026-01-31 14:45:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-45-PM.backup
+[2026-01-31 14:45:07] [INFO] ==========================================
+[2026-01-31 14:50:01] [INFO] Starting backup for database: govt
+[2026-01-31 14:50:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-50-PM.backup
+[2026-01-31 14:50:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-50-PM.backup
+[2026-01-31 14:50:07] [INFO] ==========================================
+[2026-01-31 15:25:01] [INFO] Starting backup for database: govt
+[2026-01-31 15:25:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-25-PM.backup
+[2026-01-31 15:25:04] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-25-PM.backup
+[2026-01-31 15:25:04] [INFO] ==========================================
+[2026-01-31 15:30:02] [INFO] Starting backup for database: govt
+[2026-01-31 15:30:02] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-30-PM.backup
+[2026-01-31 15:30:05] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-30-PM.backup
+[2026-01-31 15:30:05] [INFO] ==========================================
+[2026-01-31 15:35:01] [INFO] Starting backup for database: govt
+[2026-01-31 15:35:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-35-PM.backup
+[2026-01-31 15:35:05] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-35-PM.backup
+[2026-01-31 15:35:05] [INFO] ==========================================
+[2026-01-31 15:40:01] [RETENTION] Starting retention cleanup
+[2026-01-31 15:40:01] [INFO] Starting backup for database: govt
+[2026-01-31 15:40:01] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=true | DryRun=false
+[2026-01-31 15:40:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-40-PM.backup
+[2026-01-31 15:40:01] [RETENTION] Testing mode: Identifying backups older than 21 minutes
+[2026-01-31 15:40:01] [RETENTION] Cutoff time: 2026-01-31 15:19:01
+[2026-01-31 15:40:01] [RETENTION] Deleted: VISTAR-02-30-PM.backup | Created: 2026-01-31 14:30:07 | Size: 30M
+[2026-01-31 15:40:01] [RETENTION] Deleted: VISTAR-02-35-PM.backup | Created: 2026-01-31 14:35:08 | Size: 30M
+[2026-01-31 15:40:01] [RETENTION] Deleted: VISTAR-02-45-PM.backup | Created: 2026-01-31 14:45:07 | Size: 30M
+[2026-01-31 15:40:01] [RETENTION] Deleted: VISTAR-02-50-PM.backup | Created: 2026-01-31 14:50:07 | Size: 30M
+[2026-01-31 15:40:01] [RETENTION] Deleted: VISTAR-02-20-PM.backup | Created: 2026-01-31 14:20:09 | Size: 30M
+[2026-01-31 15:40:01] [RETENTION] Deleted: VISTAR-02-25-PM.backup | Created: 2026-01-31 14:25:07 | Size: 30M
+[2026-01-31 15:40:01] [RETENTION] Deleted: VISTAR-02-40-PM.backup | Created: 2026-01-31 14:40:07 | Size: 30M
+[2026-01-31 15:40:01] [RETENTION-SUCCESS] Testing mode cleanup: Deleted 7 backup file(s)
+[2026-01-31 15:40:01] [RETENTION] Retention cleanup completed
+[2026-01-31 15:40:01] [RETENTION] ==========================================
+[2026-01-31 15:40:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-40-PM.backup
+[2026-01-31 15:40:07] [INFO] ==========================================
+[2026-01-31 15:45:01] [INFO] Starting backup for database: govt
+[2026-01-31 15:45:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-45-PM.backup
+[2026-01-31 15:45:06] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-45-PM.backup
+[2026-01-31 15:45:06] [INFO] ==========================================
+[2026-01-31 15:50:01] [INFO] Starting backup for database: govt
+[2026-01-31 15:50:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-50-PM.backup
+[2026-01-31 15:50:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-50-PM.backup
+[2026-01-31 15:50:07] [INFO] ==========================================
+[2026-01-31 15:55:01] [INFO] Starting backup for database: govt
+[2026-01-31 15:55:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-55-PM.backup
+[2026-01-31 15:55:06] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-03-55-PM.backup
+[2026-01-31 15:55:06] [INFO] ==========================================
+[2026-01-31 15:59:57] [INFO] Starting backup for database: govt
+[2026-01-31 15:59:57] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-15-59-57.backup
+[2026-01-31 16:00:01] [RETENTION] Starting retention cleanup
+[2026-01-31 16:00:01] [RETENTION] Config: Unit=minutes | Period=20 | Enabled=true | DryRun=false
+[2026-01-31 16:00:01] [INFO] Starting backup for database: govt
+[2026-01-31 16:00:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-16-00-01.backup
+[2026-01-31 16:00:01] [RETENTION] Testing mode: Identifying backups older than 21 minutes
+[2026-01-31 16:00:01] [RETENTION] Cutoff time: 2026-01-31 15:39:01
+[2026-01-31 16:00:01] [RETENTION] Deleted: VISTAR-03-35-PM.backup | Created: 2026-01-31 15:35:05 | Size: 30M
+[2026-01-31 16:00:02] [RETENTION] Deleted: VISTAR-03-30-PM.backup | Created: 2026-01-31 15:30:05 | Size: 30M
+[2026-01-31 16:00:02] [RETENTION] Deleted: VISTAR-03-25-PM.backup | Created: 2026-01-31 15:25:04 | Size: 30M
+[2026-01-31 16:00:02] [RETENTION-SUCCESS] Testing mode cleanup: Deleted 3 backup file(s)
+[2026-01-31 16:00:02] [RETENTION] Retention cleanup completed
+[2026-01-31 16:00:02] [RETENTION] ==========================================
+[2026-01-31 16:00:03] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-15-59-57.backup
+[2026-01-31 16:00:03] [INFO] ==========================================
+[2026-01-31 16:00:08] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-16-00-01.backup
+[2026-01-31 16:00:08] [INFO] ==========================================
+[2026-01-31 16:00:15] [INFO] Starting backup for database: govt
+[2026-01-31 16:00:15] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-16-00-15.backup
+[2026-01-31 16:00:21] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-16-00-15.backup
+[2026-01-31 16:00:21] [INFO] ==========================================
+[2026-01-31 16:05:01] [INFO] Starting backup for database: govt
+[2026-01-31 16:05:01] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-16-05-01.backup
+[2026-01-31 16:05:06] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-16-05-01.backup
+[2026-01-31 16:05:06] [INFO] ==========================================
+[2026-01-31 16:08:04] [INFO] Starting backup for database: govt
+[2026-01-31 16:08:04] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-2026-01-31_16-08-04.backup
+[2026-01-31 16:08:10] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-2026-01-31_16-08-04.backup
+[2026-01-31 16:08:10] [INFO] ==========================================
+[2026-01-31 16:10:02] [INFO] Starting backup for database: govt
+[2026-01-31 16:10:02] [INFO] Backup destination: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-2026-01-31_16-10-01.backup
+[2026-01-31 16:10:07] [SUCCESS] Backup completed successfully | Size: 30M | File: /home/arffy/cproj/vistar/odoo_prod_warehouse/2026-01-31/VISTAR-2026-01-31_16-10-01.backup
+[2026-01-31 16:10:07] [INFO] ==========================================

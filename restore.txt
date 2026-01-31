@@ -1,0 +1,36 @@
+# Find backups from 3 days ago
+TARGET_DATE=$(date -d "3 days ago" +"%b-%d-%Y" | tr 'a-z' 'A-Z')
+
+# Restore
+pg_restore \
+  --host=localhost \
+  --port=5432 \
+  --username=postgres \
+  --dbname=govt \
+  --clean \
+  --if-exists \
+    /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-11-34-AM.backup 
+
+
+
+pg_restore \
+  --host=localhost \
+  --port=5432 \
+  --username=postgres \
+  --dbname=govt_local_2 \
+  --clean \
+  --if-exists \
+    /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-15-PM.backup
+
+
+
+
+
+  pg_restore \
+  --host=localhost \
+  --port=5432 \
+  --username=postgres \
+  --dbname=govt_local_2 \
+  --clean \
+  --if-exists \
+    /home/arffy/cproj/vistar/odoo_prod_warehouse/JAN-31-2026/VISTAR-02-15-PM.backup
