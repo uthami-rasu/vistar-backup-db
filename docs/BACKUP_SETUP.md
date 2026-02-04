@@ -10,15 +10,35 @@
 
 ## 🛠️ Setup Steps
 
-### Step 1: Set Permissions
+### Step 2: Configure System (CRITICAL)
 
-#### A. Set `.pgpass` file permissions (Required)
+Configure all database and retention settings in `backup.config`. You do **NOT** need to edit the `.sh` scripts.
+
+```bash
+cd /home/arffy/cproj/vistar
+nano backup.config
+```
+
+#### Key Variables in `backup.config`:
+
+| Variable           | Description                 | Example                 |
+| :----------------- | :-------------------------- | :---------------------- |
+| `PROJECT_PREFIX`   | Filename prefix for backups | `"VISTAR"`              |
+| `PG_DB`            | Database name to backup     | `"govt"`                |
+| `BASE_DIR`         | Where to store backups      | `"/home/arffy/backups"` |
+| `RETENTION_PERIOD` | How many units to keep      | `5`                     |
+| `RETENTION_UNIT`   | Unit for retention          | `"days"` or `"minutes"` |
+
+---
+
+### Step 3: Set Permissions
+
+#### A. Set `.pgpass` and `backup.config` permissions
 
 ```bash
 chmod 600 /home/arffy/cproj/vistar/.pgpass
+chmod 600 /home/arffy/cproj/vistar/backup.config # Contains DB info
 ```
-
-**Why:** PostgreSQL requires strict permissions for password files.
 
 #### B. Make backup scripts executable
 
@@ -27,19 +47,14 @@ chmod +x /home/arffy/cproj/vistar/pg_hourly_backup.sh
 chmod +x /home/arffy/cproj/vistar/pg_retention_cleanup.sh
 ```
 
-#### C. Set backup directory permissions (CRITICAL)
+#### C. Set backup directory permissions
 
-The backup directory must be owned by your user and have correct permissions.
+The `BASE_DIR` defined in `backup.config` must be owned by your user.
 
 ```bash
-# 1. Create the grandparent directory
+# Example for /home/arffy/arffy_db_bkups
 sudo mkdir -p /home/arffy/arffy_db_bkups/odoo_18_warehouse
-
-# 2. Grant ownership to your user
 sudo chown -R arffy:arffy /home/arffy/arffy_db_bkups
-
-# 3. Set directory permissions
-chmod 755 /home/arffy/arffy_db_bkups/odoo_18_warehouse
 ```
 
 ---
@@ -164,31 +179,26 @@ find /home/arffy/arffy_db_bkups/odoo_18_warehouse -name "*.backup" | wc -l
 
 ## 🛡️ Safety & Dry-Run Mode
 
-The retention script includes advanced safety protections to prevent accidental data loss.
+The retention script includes advanced safety protections. All controls are now in `backup.config`.
 
 ### 1. Master Kill-Switch (`RETENTION_ENABLED`)
-
-Located at the top of `pg_retention_cleanup.sh`:
 
 - `true` (default): Retention is active.
 - `false`: Script will exit without doing anything.
 
 ### 2. Dry-Run Mode (`DRY_RUN`)
 
-Use this to test your retention settings safely:
-
-1. Edit `pg_retention_cleanup.sh` and set `DRY_RUN="true"`.
-2. Run the script: `./pg_retention_cleanup.sh`.
-3. Check the logs (`retention_cleanup.log`). It will show "[DRY-RUN] Would delete: ..." but **no files will be removed**.
-4. Once you are happy with the results, set `DRY_RUN="false"` for live operation.
+1. Edit `backup.config` and set `DRY_RUN="true"`.
+2. Run the cleanup script: `./pg_retention_cleanup.sh`.
+3. Check the logs. It will show "[DRY-RUN] Would delete: ..." but **no files will be removed**.
+4. Set `DRY_RUN="false"` for live operation.
 
 ### 3. Safety Validations
 
 The script automatically verifies:
 
-- `BASE_DIR` matches the explicit `ALLOWED_BASE` path.
-- `BASE_DIR` is not a system directory (like `/` or `/home`).
-- `RETENTION_UNIT` is valid (`days` or `minutes`).
+- `BASE_DIR` matches the `ALLOWED_BASE` path in `backup.config`.
+- `BASE_DIR` is not a system directory.
 
 ---
 
@@ -196,16 +206,16 @@ The script automatically verifies:
 
 ```
 vistar/
+├── backup.config                # NEW: Central configuration
 ├── pg_hourly_backup.sh          # Hourly backup script
 ├── pg_retention_cleanup.sh      # Daily cleanup script
 ├── .pgpass                      # PostgreSQL password (600)
-└── /home/arffy/arffy_db_bkups/odoo_18_warehouse/ # Backup storage (755)
+└── /path/to/backups/            # Defined in BASE_DIR
     ├── backup.log
     ├── backup_errors.log
     ├── retention_cleanup.log
     └── 2026-01-31/
         ├── VISTAR-2026-01-31_01-00-00.backup
-        ├── VISTAR-2026-01-31_02-00-00.backup
         └── ...
 ```
 

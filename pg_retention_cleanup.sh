@@ -8,23 +8,26 @@ set -euo pipefail
 # =====================================================
 
 # -----------------------------
-# Configuration
+# Load Configuration
 # -----------------------------
-# ALLOWED BACKUP DIRECTORY - This is the ONLY directory where deletions are permitted
-ALLOWED_BASE="/home/arffy/arffy_db_bkups/odoo_18_warehouse"
-BASE_DIR="${ALLOWED_BASE}"
+CONFIG_FILE="$(dirname "$0")/backup.config"
+if [ ! -f "$CONFIG_FILE" ]; then
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] [ERROR] Configuration file not found: $CONFIG_FILE"
+    exit 1
+fi
+source "$CONFIG_FILE"
 
-# Retention settings
-# For PRODUCTION: Use RETENTION_UNIT="days" and RETENTION_PERIOD=10
-# For TESTING: Use RETENTION_UNIT="minutes" and RETENTION_PERIOD=20
-RETENTION_UNIT="minutes"       # "days" or "minutes"
-RETENTION_PERIOD=5       # Number of days/minutes to keep
+# -----------------------------
+# Validate Essential Config
+# -----------------------------
+: "${BASE_DIR:?BASE_DIR must be set in config}"
+: "${ALLOWED_BASE:?ALLOWED_BASE must be set in config}"
+: "${RETENTION_UNIT:?RETENTION_UNIT must be set in config}"
+: "${RETENTION_PERIOD:?RETENTION_PERIOD must be set in config}"
 
-# Safety Guards
-RETENTION_ENABLED="true"    # Master kill-switch (true/false)
-DRY_RUN="false"            # If true, identifies what to delete but makes no changes
-
-# Logging
+# -----------------------------
+# Derived Paths
+# -----------------------------
 CLEANUP_LOG="${BASE_DIR}/retention_cleanup.log"
 
 # -----------------------------
@@ -120,8 +123,8 @@ if [ "${RETENTION_UNIT}" = "minutes" ]; then
             else
                 rm -f "$backup_file"
                 log_info "Deleted: $(basename "$backup_file") | Created: ${FILE_TIME} | Size: ${FILE_SIZE}"
-                DELETED_COUNT=$((DELETED_COUNT + 1))
             fi
+            DELETED_COUNT=$((DELETED_COUNT + 1))
         fi
     done < <(find "${BASE_DIR}" -type f -name "*.backup")
     
